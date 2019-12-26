@@ -11,6 +11,7 @@ The following enhancements have been made to the [previous version](https://gith
 1. A pixel array now points to the left (lane 0) or right (lane 1) to indicate the winner.
 2. A built-in speaker plays fun tones at various points in the race.
 3. Button A now triggers a servo, which can be wired to the starting gate to remotely start the race.  The servo resets at the end of the race.
+4. The race time of the winner is recorded and output over serial, but there is no other way to see the race time in this version.
 
 This project was done using MakeCode to demonstrate to Cub Scouts that electronics can be useful and FUN!
 
