@@ -6,7 +6,7 @@ This is a cheap and simple finish line judge for a two-lane pinewood derby track
 
 Photovoltaic sensors are installed into holes drilled into the center of each lane, and a light or LED is placed directly overhead of each sensor.  Once a car's shadow passes over one of the sensors (causing the sensed light to dim by 50%), that car will be declared the winner.
 
-The following enhancements have been made, in part by switching to the [Circuit Playground Express](https://www.adafruit.com/product/3333) development board:
+The following enhancements have been made to the [previous version](https://github.com/ckxng/pxt-simple-pwd-finish-line-judge) of this project:
 
 1. A pixel array now points to the left (lane 0) or right (lane 1) to indicate the winner.
 2. A built-in speaker plays fun tones at various points in the race.
@@ -14,12 +14,22 @@ The following enhancements have been made, in part by switching to the [Circuit 
 
 This project was done using MakeCode to demonstrate to Cub Scouts that electronics can be useful and FUN!
 
-## Changes from Previous Version
+## Code Readability Enhancements
 
-This version is based on [pxt-simple-pwd-finish-line-judge](https://github.com/ckxng/pxt-simple-pwd-finish-line-judge), with a few modifications.  Two changes were made to make the code easier to read for new programmers.
+Two changes were made to make the code easier to read for new programmers.
 
 1. Lanes have been renumbered to "0" and "1" (instead of "1" and "2") for consistency.
 2. Most code was consolidated into the start up function, since the program has a definite beginning and end.
+
+## Circuit Playground Express
+
+This project uses the [Circuit Playground Express](https://www.adafruit.com/product/3333) because of the built-in pixel ring and its popularity as a beginner development board.
+
+[AdaFruit](https://www.adafruit.com) has a good [overview](https://learn.adafruit.com/adafruit-circuit-playground-express/overview) published on their website, including instructions for driver install and sample programs.
+
+### Board Pinout
+
+![circuit playground express pinout](https://github.com/ckxng/pxt-lightup-pwd-finishline-judge/raw/master/docs/circuit_playground_Adafruit_Circuit_Playground_Express_Pinout.png)
 
 ## Use this extension
 
