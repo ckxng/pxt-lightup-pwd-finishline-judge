@@ -80,17 +80,17 @@ A lane can be added by editing two functions in the block editor.  Review the fo
     function lightSensorRead
       set lightSensorCurrent to 
         (array of 
-          (analog read pin A1)
-          (analog read pin A2))
+          (analog read pin A2)
+          (analog read pin A3))
 
 Change it to:
 
     function lightSensorRead
       set lightSensorCurrent to 
         (array of 
-          (analog read pin A1)
           (analog read pin A2)
-          (analog read pin A3))
+          (analog read pin A3)
+          (analog read pin A4))
 
 The function pixelShowWinner will also need to be modified to display a unique pixel pattern to indicate the winning lane.
 
