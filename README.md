@@ -6,8 +6,6 @@ This is a cheap and simple finish line judge for a two-lane pinewood derby track
 
 Photovoltaic sensors are installed into holes drilled into the center of each lane, and a light or LED is placed directly overhead of each sensor.  Once a car's shadow passes over one of the sensors (causing the sensed light to dim by 50%), that car will be declared the winner.
 
-This version is based on [pxt-simple-pwd-finish-line-judge](https://github.com/ckxng/pxt-simple-pwd-finish-line-judge), with a few modifications.  Lanes have been renumbered to "0" and "1" (instead of "1" and "2") to make it easier for new coders to see what is happening.
-
 The following enhancements have been made, in part by switching to the [Circuit Playground Express](https://www.adafruit.com/product/3333) development board:
 
 1. A pixel array now points to the left (lane 0) or right (lane 1) to indicate the winner.
@@ -15,6 +13,13 @@ The following enhancements have been made, in part by switching to the [Circuit 
 3. Button A now triggers a servo, which can be wired to the starting gate to remotely start the race.  The servo resets at the end of the race.
 
 This project was done using MakeCode to demonstrate to Cub Scouts that electronics can be useful and FUN!
+
+## Changes from Previous Version
+
+This version is based on [pxt-simple-pwd-finish-line-judge](https://github.com/ckxng/pxt-simple-pwd-finish-line-judge), with a few modifications.  Two changes were made to make the code easier to read for new programmers.
+
+1. Lanes have been renumbered to "0" and "1" (instead of "1" and "2") for consistency.
+2. Most code was consolidated into the start up function, since the program has a definite beginning and end.
 
 ## Use this extension
 
